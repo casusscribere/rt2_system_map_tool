@@ -1,0 +1,34 @@
+{
+  "id": "table_1_14_base_terrain",
+  "name": "Table 1-14: Base Terrain",
+  "_source": "src_rt14_stars_p24",
+  "audience": "gm",
+  "die": "d5",
+  "rows": [
+    {
+      "range_min": 1,
+      "range_max": 1,
+      "name": "Forest"
+    },
+    {
+      "range_min": 2,
+      "range_max": 2,
+      "name": "Mountain"
+    },
+    {
+      "range_min": 3,
+      "range_max": 3,
+      "name": "Plains"
+    },
+    {
+      "range_min": 4,
+      "range_max": 4,
+      "name": "Swamp"
+    },
+    {
+      "range_min": 5,
+      "range_max": 5,
+      "name": "Wasteland"
+    }
+  ]
+}

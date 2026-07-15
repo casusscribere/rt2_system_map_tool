@@ -1,0 +1,67 @@
+{
+  "id": "table_1_2_star_generation",
+  "name": "Table 1-2: Star Generation",
+  "_source": "src_rt14_stars_p13",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Determines the type of star at the centre of the system. The star type affects Solar Zone sizes which in turn affect the number of System Elements rolled.",
+  "rows": [
+    {
+      "range_min": 1,
+      "range_max": 1,
+      "name": "Mighty",
+      "description": "The fierce light of this star dominates its system utterly. Its coloration is likely to be blue or blue-white. The Inner Cauldron is dominant, and the Primary Biosphere is weak.",
+      "solar_zone_modifiers": {
+        "inner_cauldron": "dominant",
+        "primary_biosphere": "weak"
+      },
+      "_source": "src_rt14_stars_p13"
+    },
+    {
+      "range_min": 2,
+      "range_max": 4,
+      "name": "Vigorous",
+      "description": "A steady illumination burns forth from the heart of this star. Its coloration is likely to be a pure white.",
+      "solar_zone_modifiers": {},
+      "_source": "src_rt14_stars_p13"
+    },
+    {
+      "range_min": 5,
+      "range_max": 7,
+      "name": "Luminous",
+      "description": "Though it has been long aeons since this star has shone at its brightest, a constant glow nonetheless provides for the system. It is likely to be yellow or yellow-orange in colour. The Inner Cauldron is weak.",
+      "solar_zone_modifiers": {
+        "inner_cauldron": "weak"
+      },
+      "_source": "src_rt14_stars_p13"
+    },
+    {
+      "range_min": 8,
+      "range_max": 8,
+      "name": "Dull",
+      "description": "The end of the star's life advances inexorably, although it can still burn for millennia yet. Many stars of this type are of a vast size, seemingly incongruous with their wan light. Its coloration is likely a sullen red. The Outer Reaches are Dominant.",
+      "solar_zone_modifiers": {
+        "outer_reaches": "dominant"
+      },
+      "_source": "src_rt14_stars_p13"
+    },
+    {
+      "range_min": 9,
+      "range_max": 9,
+      "name": "Anomalous",
+      "description": "The star is an unnatural outlier, shedding a strange light that behaves in ways it should not. Its light can be of any colour, even one that is not typical for a star, from bilious green to barely-visible purple. The Game Master can choose to make one Solar Zone dominant or weak at his discretion.",
+      "solar_zone_modifiers": {
+        "gm_choice": true
+      },
+      "_source": "src_rt14_stars_p13"
+    },
+    {
+      "range_min": 10,
+      "range_max": 10,
+      "name": "Binary",
+      "description": "The system is lit by not by a single star, but two or even more stars. Most binary systems are lit by stars of the same type, but some sets seem to be less well matched. Roll 1d10 to determine the nature of the set: On a 1-7, the stars are of the same type, while on an 8-10 they should be generated separately. Generate binary stars by rolling on this Table again, ignoring results of 9 or 10. Use the effect of the more powerful star to determine the size of Solar Zones, if there is variance.",
+      "binary": true,
+      "_source": "src_rt14_stars_p13"
+    }
+  ]
+}

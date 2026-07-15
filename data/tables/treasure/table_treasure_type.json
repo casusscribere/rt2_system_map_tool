@@ -1,0 +1,15 @@
+{
+  "id": "table_treasure_type",
+  "name": "Treasure Type Selector (RT14 p.83: chooses among Tables 2-25..2-29)",
+  "_source": "src_rt14_stars_p83",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Roll once per artefact to choose which of the equipment sub-tables to roll on. Per RT14 p.83: 1-2 Melee, 3-4 Ranged, 5-6 Armour, 7-8 Gear and Tools, 9-10 Ship Component.",
+  "rows": [
+    {"range_min": 1,  "range_max": 2,  "name": "Melee Weapon",    "sub_table": "table_2_25_melee_weapons"},
+    {"range_min": 3,  "range_max": 4,  "name": "Ranged Weapon",   "sub_table": "table_2_26_ranged_weapons"},
+    {"range_min": 5,  "range_max": 6,  "name": "Armour",          "sub_table": "table_2_27_armour"},
+    {"range_min": 7,  "range_max": 8,  "name": "Gear and Tools",  "sub_table": "table_2_28_gear_and_tools"},
+    {"range_min": 9,  "range_max": 10, "name": "Ship Component",  "sub_table": "table_2_29_ship_components"}
+  ]
+}

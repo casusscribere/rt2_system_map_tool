@@ -1,0 +1,26 @@
+{
+  "id": "table_derelict_station_contents",
+  "name": "Derelict Station Contents (companion to Table 1-4)",
+  "_source": "src_rt14_stars_p15",
+  "audience": "gm",
+  "_doc": "RT14 Ch.I describes Derelict Stations as having fixed Armour 10, Hull Integrity 4d10, and 1d5-1 resource finds. Xenos-origin stations yield Xenotech finds (rolls on Table 1-22 Xenos Ruins indirectly via per-find 1d100 abundance); STC-origin stations yield Archeotech finds (per-find 1d100 abundance). Ruined Empire bonuses apply per the feature flag.",
+  "fields": {
+    "armour": {"value": 10, "_source": "src_rt14_stars_p15"},
+    "hull_integrity_formula": {"value": "4d10", "_source": "src_rt14_stars_p15"},
+    "num_resources_formula": {"value": "1d5-1 (minimum 0)", "_source": "src_rt14_stars_p15"},
+    "resource_abundance_per_find_formula": {"value": "1d100", "_source": "src_rt14_stars_p15"},
+    "ruined_empire_xenos_bonus_formula": {"value": "+1d10+5 per find when feature_flags.ruined_empire_increased_abundance_xenos_ruins is set", "_source": "src_rt14_stars_p10"},
+    "ruined_empire_archeotech_bonus_formula": {"value": "+1d10+5 per find when feature_flags.ruined_empire_increased_abundance_archeotech_caches is set", "_source": "src_rt14_stars_p10"}
+  },
+  "resource_kind_by_origin": {
+    "Egarian Void-maze":     "xenotech",
+    "Eldar Orrery":          "xenotech",
+    "Eldar Gate":            "xenotech",
+    "Ork Rok":               "xenotech",
+    "STC Defence Station":   "archeotech",
+    "STC Monitor Station":   "archeotech",
+    "Stryxis Collection":    "xenotech",
+    "Xenos Defence Station": "xenotech",
+    "Xenos Monitor Station": "xenotech"
+  }
+}

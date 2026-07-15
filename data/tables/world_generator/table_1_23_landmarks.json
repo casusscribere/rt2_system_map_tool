@@ -1,0 +1,71 @@
+{
+  "id": "table_1_23_landmarks",
+  "name": "Table 1-23: Landmarks",
+  "_source": "src_rt14_stars_p32",
+  "audience": "gm",
+  "die": "d100",
+  "_doc": "Roll per Landmark within a Territory. Landmark count by body: Small=1d5, Large=1d5+2, Vast=1d5+3 per Territory. Re-roll Exceptional results if none are valid for the Planet.",
+  "rows": [
+    {
+      "range_min": 1,
+      "range_max": 20,
+      "name": "Canyon",
+      "category": "General",
+      "description": "Vast trench carved into soil or bedrock. May reach planetary crust depth, exposing magma. Often used to assist mining."
+    },
+    {
+      "range_min": 21,
+      "range_max": 35,
+      "name": "Cave Network",
+      "category": "General",
+      "description": "Extensive tunnel/cave system. Cannot normally serve as navigation reference, though scanners may allow it."
+    },
+    {
+      "range_min": 36,
+      "range_max": 45,
+      "name": "Crater",
+      "category": "General",
+      "description": "Impact point of a meteor or orbital bombardment, or a local depression formed by tectonic forces."
+    },
+    {
+      "range_min": 46,
+      "range_max": 65,
+      "name": "Mountain",
+      "category": "General",
+      "description": "Solitary or range, up to ~20km in height. Ideal visual reference: grants additional +10 to Navigate (Surface) Tests."
+    },
+    {
+      "range_min": 66,
+      "range_max": 75,
+      "name": "Volcano",
+      "category": "General",
+      "description": "Fire-mountains or extensive volcanic vent systems. Eruptions rare but catastrophic. Extinct volcano = treat as Mountain."
+    },
+    {
+      "range_min": 76,
+      "range_max": 100,
+      "name": "Exceptional Landmark",
+      "category": "Exceptional",
+      "description": "Select one Exceptional Landmark valid for the Planet's conditions: Glacier (Ice Worlds / Trapped-Water+); Inland Sea (Liquid Water+); Perpetual Storm (Moderate/Heavy atmosphere); Reef (Liquid Water+); Whirlpool (Liquid Water+, normally 2+ Orbital Features)."
+    }
+  ],
+  "general_bonus": "Landmarks grant +10 to Navigate (Surface) Tests when visible.",
+  "exceptional_landmarks": {
+    "glacier": {
+      "requires": "Climate: Ice World, or Habitability: Trapped Water+"
+    },
+    "inland_sea": {
+      "requires": "Habitability: Liquid Water, Limited Ecosystem, or Verdant. GM may allow frozen version on Trapped Water."
+    },
+    "perpetual_storm": {
+      "requires": "Atmosphere: Moderate or Heavy",
+      "effect": "Drive/Pilot Tests at -20 to pass through. May inflict 1d10+3 Energy Damage per half hour for hazardous variants."
+    },
+    "reef": {
+      "requires": "Habitability: Liquid Water, Limited Ecosystem, or Verdant. GM may allow extinct reef on water-less Planets \u2014 large enough grants Mountain-like nav bonus."
+    },
+    "whirlpool": {
+      "requires": "Habitability: Liquid Water+; rarely found without 2+ Orbital Features influencing tides."
+    }
+  }
+}

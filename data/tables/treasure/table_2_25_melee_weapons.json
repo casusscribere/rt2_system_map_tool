@@ -1,0 +1,19 @@
+{
+  "id": "table_2_25_melee_weapons",
+  "name": "Table 2-25: Melee Weapons",
+  "_source": "src_rt14_stars_p84",
+  "audience": "gm",
+  "die": "d10",
+  "rows": [
+    {"range_min": 1,  "range_max": 1,  "name": "Razorchain",        "profile": "Melee; 5m; 1d5+2 R; Pen 2; Balanced, Flexible; 2kg"},
+    {"range_min": 2,  "range_max": 2,  "name": "Chainsword",        "profile": "Melee; 1d10+2 R; Pen 2; Balanced, Tearing; 6kg"},
+    {"range_min": 3,  "range_max": 3,  "name": "Chain Axe",         "profile": "Melee; 1d10+4 R; Pen 2; Tearing; 13kg"},
+    {"range_min": 4,  "range_max": 4,  "name": "Relic Shield",      "profile": "Melee; 1d5+2 I; Pen 0; Defensive; 3kg"},
+    {"range_min": 5,  "range_max": 5,  "name": "Relic Glaive",      "profile": "Melee; 1d10+5 R; Pen 2; Balanced; 12kg"},
+    {"range_min": 6,  "range_max": 6,  "name": "Relic Flail",       "profile": "Melee; 1d10+8 I; Pen 0; Unwieldy; 15kg"},
+    {"range_min": 7,  "range_max": 7,  "name": "Charged Gauntlet",  "profile": "Melee; 1d10+4 E; Pen 2; Balanced, Unstable; 5kg"},
+    {"range_min": 8,  "range_max": 8,  "name": "Power Blade",       "profile": "Melee; 1d10+5 E; Pen 5; Balanced, Power Field; 3kg"},
+    {"range_min": 9,  "range_max": 9,  "name": "Power Axe",         "profile": "Melee; 1d10+7 E; Pen 7; Power Field, Unbalanced; 6kg"},
+    {"range_min": 10, "range_max": 10, "name": "Crystalline Blade", "profile": "Melee; 1d10+2 R; Pen 8; Balanced, Power Field; 3kg"}
+  ]
+}

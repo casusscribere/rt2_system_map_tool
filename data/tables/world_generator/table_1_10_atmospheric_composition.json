@@ -1,0 +1,39 @@
+{
+  "id": "table_1_10_atmospheric_composition",
+  "name": "Table 1-10: Atmospheric Composition",
+  "_source": "src_rt14_stars_p21",
+  "audience": "gm",
+  "die": "d10",
+  "rows": [
+    {
+      "range_min": 1,
+      "range_max": 1,
+      "name": "Deadly",
+      "description": "Vast acid bath. 1d5+1 Damage each Round (ignores TB and Armour). If Heavy: breaks environmental seals after 1d10+2 hours."
+    },
+    {
+      "range_min": 2,
+      "range_max": 2,
+      "name": "Corrosive",
+      "description": "Poisonous and deadly on contact. Difficult (-10) Toughness Test each Round or suffer 1d5 Damage (ignores Armour and TB). Continued exposure causes suffocation (RT Core p.261)."
+    },
+    {
+      "range_min": 3,
+      "range_max": 5,
+      "name": "Toxic",
+      "description": "Poisonous gases. Breathing requires Challenging (+0) Toughness Test each Round to avoid 1 Damage (ignoring TB and Armour). Continued exposure causes suffocation."
+    },
+    {
+      "range_min": 6,
+      "range_max": 7,
+      "name": "Tainted",
+      "description": "Can sustain human life but stained by trace toxins. No direct effect on Explorers but influences long-term colonisation viability."
+    },
+    {
+      "range_min": 8,
+      "range_max": 99,
+      "name": "Pure",
+      "description": "Entirely safe for humans and most common life forms to breathe."
+    }
+  ]
+}

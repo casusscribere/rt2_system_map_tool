@@ -1,0 +1,19 @@
+{
+  "id": "table_2_28_gear_and_tools",
+  "name": "Table 2-28: Gear and Tools",
+  "_source": "src_rt14_stars_p85",
+  "audience": "gm",
+  "die": "d10",
+  "rows": [
+    {"range_min": 1,  "range_max": 1,  "name": "Auspex / Scanner",         "_cross_ref": {"book": "RT Core", "page": 143}},
+    {"range_min": 2,  "range_max": 2,  "name": "Combi-tool",               "_cross_ref": {"book": "RT Core", "page": 144}},
+    {"range_min": 3,  "range_max": 3,  "name": "Cybernetic Attachment",    "_cross_ref": {"book": "RT Core", "page": 147}, "_note": "Roll once on RT Core pp.147-152 cybernetic-attachment table (or GM choice)."},
+    {"range_min": 4,  "range_max": 4,  "name": "Multicompass",             "_cross_ref": {"book": "RT Core", "page": 146}},
+    {"range_min": 5,  "range_max": 5,  "name": "Multikey",                 "_cross_ref": {"book": "RT Core", "page": 145}},
+    {"range_min": 6,  "range_max": 6,  "name": "Navis Prima",              "_cross_ref": {"book": "RT Core", "page": 146}},
+    {"range_min": 7,  "range_max": 7,  "name": "Preysense Goggles",        "_cross_ref": {"book": "RT Core", "page": 140}},
+    {"range_min": 8,  "range_max": 8,  "name": "Chameleoline Cloak",       "_cross_ref": {"book": "RT Core", "page": 139}},
+    {"range_min": 9,  "range_max": 9,  "name": "Jump Pack",                "_cross_ref": {"book": "RT Core", "page": 144}},
+    {"range_min": 10, "range_max": 10, "name": "Void Suit",                "_cross_ref": {"book": "RT Core", "page": 140}}
+  ]
+}

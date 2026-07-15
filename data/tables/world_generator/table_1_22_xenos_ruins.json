@@ -1,0 +1,41 @@
+{
+  "id": "table_1_22_xenos_ruins",
+  "name": "Table 1-22: Xenos Ruins",
+  "_source": "src_rt14_stars_p30",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Determines the species that built the Xenos Ruins. Identification requires Hard (-20) Trade (Archeology) Test.",
+  "rows": [
+    {
+      "range_min": 1,
+      "range_max": 4,
+      "name": "Undiscovered species",
+      "description": "The Ruins belonged to an undiscovered species. No surviving records identify them."
+    },
+    {
+      "range_min": 5,
+      "range_max": 6,
+      "name": "Eldar Ruins"
+    },
+    {
+      "range_min": 7,
+      "range_max": 7,
+      "name": "Egarian Ruins"
+    },
+    {
+      "range_min": 8,
+      "range_max": 8,
+      "name": "Yu'Vath Ruins"
+    },
+    {
+      "range_min": 9,
+      "range_max": 9,
+      "name": "Ork Ruins"
+    },
+    {
+      "range_min": 10,
+      "range_max": 10,
+      "name": "Kroot Ruins"
+    }
+  ]
+}

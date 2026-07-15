@@ -1,0 +1,147 @@
+{
+  "id": "table_1_6_body",
+  "name": "Table 1-6: Body",
+  "_source": "src_rt14_stars_p19",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Determines the body type (size category) of a Planet. Roll on the Rocky or Gas Giant subtable based on the Planet's nature.",
+  "subtables": {
+    "rocky_planets": [
+      {
+        "range_min": 1,
+        "range_max": 1,
+        "name": "Low-Mass",
+        "description": "The world is even lower in mass than its small size would suggest. Apply -7 to the result of any roll on Table 1-7: Gravity. Generate Resources and Environments as if the world was Small. Mineral Resource deposits cannot exceed Limited in abundance.",
+        "modifiers": [
+          {
+            "affects": "table_1_7_gravity",
+            "op": "add",
+            "value": -7
+          },
+          {
+            "affects": "size_for_resources_environments",
+            "op": "set",
+            "value": "small"
+          },
+          {
+            "affects": "mineral_resource_abundance_cap",
+            "op": "set",
+            "value": "limited"
+          }
+        ]
+      },
+      {
+        "range_min": 2,
+        "range_max": 3,
+        "name": "Small",
+        "description": "This world lacks the mass and size to support significant gravity or resources. Apply -5 to the result of any roll on Table 1-7: Gravity.",
+        "modifiers": [
+          {
+            "affects": "table_1_7_gravity",
+            "op": "add",
+            "value": -5
+          }
+        ]
+      },
+      {
+        "range_min": 4,
+        "range_max": 4,
+        "name": "Small and Dense",
+        "description": "Generate Resources and Environments as if the world was Small. Add +10 to the result of any roll on Table 1-19: Resource Abundance for any Mineral Resources.",
+        "modifiers": [
+          {
+            "affects": "size_for_resources_environments",
+            "op": "set",
+            "value": "small"
+          },
+          {
+            "affects": "table_1_19_resource_abundance",
+            "op": "add",
+            "value": 10,
+            "context": "mineral_resources"
+          }
+        ]
+      },
+      {
+        "range_min": 5,
+        "range_max": 7,
+        "name": "Large",
+        "description": "Worlds of this size can range across a vast spectrum of possible types.",
+        "modifiers": []
+      },
+      {
+        "range_min": 8,
+        "range_max": 8,
+        "name": "Large and Dense",
+        "description": "Add +5 to the result of any roll on Table 1-7: Gravity. Generate Resources and Environments as if the world was Large. Add +10 to the result of any roll on Table 1-19: Resource Abundance for any Mineral Resources.",
+        "modifiers": [
+          {
+            "affects": "table_1_7_gravity",
+            "op": "add",
+            "value": 5
+          },
+          {
+            "affects": "size_for_resources_environments",
+            "op": "set",
+            "value": "large"
+          },
+          {
+            "affects": "table_1_19_resource_abundance",
+            "op": "add",
+            "value": 10,
+            "context": "mineral_resources"
+          }
+        ]
+      },
+      {
+        "range_min": 9,
+        "range_max": 10,
+        "name": "Vast",
+        "description": "Huge and voluminous, worlds of this type strain the upper edges of the possible size for a single world. Add +4 to the result of any roll on Table 1-7: Gravity.",
+        "modifiers": [
+          {
+            "affects": "table_1_7_gravity",
+            "op": "add",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "gas_giants": [
+      {
+        "range_min": 1,
+        "range_max": 2,
+        "name": "Gas Dwarf",
+        "description": "Smaller than a typical gas giant but more massive than most rocky Planets. Apply -5 to the result of any roll on Table 1-7: Gravity.",
+        "modifiers": [
+          {
+            "affects": "table_1_7_gravity",
+            "op": "add",
+            "value": -5
+          }
+        ]
+      },
+      {
+        "range_min": 3,
+        "range_max": 8,
+        "name": "Gas Giant",
+        "description": "Typical gas giants are vastly more massive than almost any other world, and tend to have correspondingly powerful gravitational effects.",
+        "modifiers": []
+      },
+      {
+        "range_min": 9,
+        "range_max": 10,
+        "name": "Massive Gas Giant",
+        "description": "The largest gas giants can rival weaker stars. Add +3 to the result of any roll on Table 1-7: Gravity. Any Massive Gas Giant not in the Inner Cauldron has a chance of being one of these titans: roll 1d10; on 8+, count the result on Table 1-7 as 10, and its moons are generated as if they were one Solar Zone closer to their star.",
+        "modifiers": [
+          {
+            "affects": "table_1_7_gravity",
+            "op": "add",
+            "value": 3
+          }
+        ],
+        "special_rule": "If not in Inner Cauldron, roll 1d10; on 8+ treat gravity roll as 10 and generate moons as if one Solar Zone closer to the star."
+      }
+    ]
+  }
+}

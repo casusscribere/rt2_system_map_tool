@@ -1,0 +1,30 @@
+{
+  "id": "table_ship_ork_upgrades",
+  "name": "Ork Ship Upgrades (small + capital)",
+  "_source": "src_rt09_battlefleet_koronus_p83",
+  "audience": "gm",
+  "die": "d10",
+  "subtables": {
+    "ork_small_ship_upgrades": [
+      {"range_min": 1,  "range_max": 1,  "name": "Kustom Enjinz"},
+      {"range_min": 2,  "range_max": 2,  "name": "Kustom Force Field"},
+      {"range_min": 3,  "range_max": 3,  "name": "Grot Holes"},
+      {"range_min": 4,  "range_max": 4,  "name": "Lookout Towerz"},
+      {"range_min": 5,  "range_max": 5,  "name": "Kustom Skanna"},
+      {"range_min": 6,  "range_max": 6,  "name": "Dakka Kontrol"},
+      {"range_min": 7,  "range_max": 7,  "name": "Mek's Workshop"},
+      {"range_min": 8,  "range_max": 8,  "name": "Looted Componentz"},
+      {"range_min": 9,  "range_max": 9,  "name": "Mob Boyz"},
+      {"range_min": 10, "range_max": 10, "name": "Red Paint Job"}
+    ],
+    "ork_capital_ship_upgrades": [
+      {"range_min": 1,  "range_max": 1,  "name": "Trakta Field"},
+      {"range_min": 2,  "range_max": 2,  "name": "Throne Room"},
+      {"range_min": 3,  "range_max": 4,  "name": "'Uge Armour Plates"},
+      {"range_min": 5,  "range_max": 6,  "name": "Bigger Red Button"},
+      {"range_min": 7,  "range_max": 7,  "name": "Weirdboy'z Tower"},
+      {"range_min": 8,  "range_max": 8,  "name": "Extra Shield Generator"},
+      {"range_min": 9,  "range_max": 10, "name": "Armoured Kaptain's Bridge"}
+    ]
+  }
+}

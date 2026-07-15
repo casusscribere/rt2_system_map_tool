@@ -1,0 +1,116 @@
+{
+  "id": "table_1_7_gravity",
+  "name": "Table 1-7: Gravity",
+  "_source": "src_rt14_stars_p20",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Determines the gravity of a Planet, which affects Orbital Features count and Atmospheric Presence. Roll on Rocky or Gas Giant subtable.",
+  "subtables": {
+    "rocky_planets": [
+      {
+        "range_min": -99,
+        "range_max": 2,
+        "name": "Low Gravity",
+        "description": "Apply -10 to any roll on Table 1-8: Orbital Features. Apply -2 to any roll on Table 1-9: Atmospheric Presence. Follows the rules for Low Gravity Worlds (RT Core p.269).",
+        "orbital_features_count": "1d5-3 (minimum 1)",
+        "modifiers": [
+          {
+            "affects": "table_1_8_orbital_features",
+            "op": "add",
+            "value": -10
+          },
+          {
+            "affects": "table_1_9_atmospheric_presence",
+            "op": "add",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "range_min": 3,
+        "range_max": 8,
+        "name": "Normal Gravity",
+        "description": "This Planet's gravity is roughly Terran Standard.",
+        "orbital_features_count": "1d5-2 (minimum 1)",
+        "modifiers": []
+      },
+      {
+        "range_min": 9,
+        "range_max": 99,
+        "name": "High Gravity",
+        "description": "Add +10 to any roll on Table 1-8: Orbital Features. Add +1 to the roll on Table 1-9: Atmospheric Presence. Follows the rules for High Gravity Worlds (RT Core p.269).",
+        "orbital_features_count": "1d5-1 (minimum 1)",
+        "modifiers": [
+          {
+            "affects": "table_1_8_orbital_features",
+            "op": "add",
+            "value": 10
+          },
+          {
+            "affects": "table_1_9_atmospheric_presence",
+            "op": "add",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "gas_giants": [
+      {
+        "range_min": -99,
+        "range_max": 2,
+        "name": "Weak",
+        "description": "Add +10 to any roll on Table 1-8: Orbital Features.",
+        "orbital_features_count": "1d10-5 (minimum 1)",
+        "modifiers": [
+          {
+            "affects": "table_1_8_orbital_features",
+            "op": "add",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "range_min": 3,
+        "range_max": 6,
+        "name": "Strong",
+        "description": "Add +15 to any roll on Table 1-8: Orbital Features.",
+        "orbital_features_count": "1d10-3 (minimum 1)",
+        "modifiers": [
+          {
+            "affects": "table_1_8_orbital_features",
+            "op": "add",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "range_min": 7,
+        "range_max": 9,
+        "name": "Powerful",
+        "description": "The influence of this gravity well extends well beyond the immediate presence of its source, drawing in whatever passes by. Add +20 to any roll on Table 1-8: Orbital Features.",
+        "orbital_features_count": "1d10+2",
+        "modifiers": [
+          {
+            "affects": "table_1_8_orbital_features",
+            "op": "add",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "range_min": 10,
+        "range_max": 99,
+        "name": "Titanic",
+        "description": "Effects on the System are second only to its Star. Add +30 to any roll on Table 1-8: Orbital Features.",
+        "orbital_features_count": "3d5+3",
+        "modifiers": [
+          {
+            "affects": "table_1_8_orbital_features",
+            "op": "add",
+            "value": 30
+          }
+        ]
+      }
+    ]
+  }
+}

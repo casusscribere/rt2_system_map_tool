@@ -1,0 +1,17 @@
+{
+  "id": "table_2_26_ranged_weapons",
+  "name": "Table 2-26: Ranged Weapons",
+  "_source": "src_rt14_stars_p84",
+  "audience": "gm",
+  "die": "d10",
+  "rows": [
+    {"range_min": 1,  "range_max": 1,  "name": "Relic Javelin",   "profile": "Thrown; 10m; S/-/-; 1d10 R; Pen 0; Clip -; Rld -; Accurate; .5kg"},
+    {"range_min": 2,  "range_max": 3,  "name": "Pistol",          "profile": "Pistol; 30m; S/2/-; 1d10+4 I; Pen 2; Clip 5; Reload 2 Full; 3kg"},
+    {"range_min": 4,  "range_max": 5,  "name": "Rifle",           "profile": "Basic; 90m; S/3/5; 1d10+5 I; Pen 4; Clip 20; Reload Full; 7kg"},
+    {"range_min": 6,  "range_max": 6,  "name": "Flamer",          "profile": "Basic; 20m; S/-/-; 1d10+4 I; Pen 2; Clip 4; Reload 2 Full; Flame; 6kg"},
+    {"range_min": 7,  "range_max": 7,  "name": "Thermal Cutter",  "profile": "Basic; 20m; S/-/-; 2d10+6 I; Pen 10; Clip 5; Reload 2 Full; 40kg"},
+    {"range_min": 8,  "range_max": 8,  "name": "Heavy Rifle",     "profile": "Basic; 60m; S/4/8; 1d10+5 I; Pen 3; Clip 48; Reload 2 Full; 35kg"},
+    {"range_min": 9,  "range_max": 9,  "name": "Hunter's Rifle",  "profile": "Basic; 200m; S/-/-; 1d10+2 I; Pen 4; Clip 5; Reload Full; Accurate; 5kg"},
+    {"range_min": 10, "range_max": 10, "name": "Scattergun",      "profile": "Basic; 30m; S/2/-; 1d10+5 I; Pen 2; Clip 12; Reload Full; Scatter; 5kg"}
+  ]
+}

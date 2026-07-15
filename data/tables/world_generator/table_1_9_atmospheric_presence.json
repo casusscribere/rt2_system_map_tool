@@ -1,0 +1,34 @@
+{
+  "id": "table_1_9_atmospheric_presence",
+  "name": "Table 1-9: Atmospheric Presence",
+  "_source": "src_rt14_stars_p21",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Determines atmospheric thickness. Includes modifiers from Table 1-7 Gravity.",
+  "rows": [
+    {
+      "range_min": -99,
+      "range_max": 1,
+      "name": "None",
+      "description": "No atmosphere or so thin as to be effectively nonexistent. Treated as vacuum (RT Core p.262-263). No need to roll on Table 1-10."
+    },
+    {
+      "range_min": 2,
+      "range_max": 4,
+      "name": "Thin",
+      "description": "Atmosphere is weak but avoids vacuum problems. Tests to avoid Toxic/Corrosive harm at +10 bonus. Lack of air makes strenuous activity difficult: outside-air-reliant Explorers gain Fatigue + 1 additional level."
+    },
+    {
+      "range_min": 5,
+      "range_max": 9,
+      "name": "Moderate",
+      "description": "No ill effects from lack/overabundance of air, though can still be Toxic or Corrosive."
+    },
+    {
+      "range_min": 10,
+      "range_max": 99,
+      "name": "Heavy",
+      "description": "Thick blanket of air. Imposes -5 on Strength or Toughness Tests (GM discretion). Toxic/Corrosive resistance tests at -10. If breathable: 1 hour reliance inflicts 1 Fatigue (not cumulative); recovery cannot occur while relying on this atmosphere."
+    }
+  ]
+}

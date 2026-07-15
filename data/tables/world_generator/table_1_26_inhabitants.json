@@ -1,0 +1,41 @@
+{
+  "id": "table_1_26_inhabitants",
+  "name": "Table 1-26: Inhabitants",
+  "_source": "src_rt14_stars_p40",
+  "audience": "gm",
+  "die": "d10",
+  "rows": [
+    {
+      "range_min": 1,
+      "range_max": 1,
+      "name": "Eldar"
+    },
+    {
+      "range_min": 2,
+      "range_max": 4,
+      "name": "Humans"
+    },
+    {
+      "range_min": 5,
+      "range_max": 5,
+      "name": "Kroot",
+      "note": "Re-roll on uninhabitable Planet"
+    },
+    {
+      "range_min": 6,
+      "range_max": 7,
+      "name": "Orks",
+      "note": "Re-roll on uninhabitable Planet"
+    },
+    {
+      "range_min": 8,
+      "range_max": 8,
+      "name": "Rak'Gol"
+    },
+    {
+      "range_min": 9,
+      "range_max": 10,
+      "name": "Xenos (Other)"
+    }
+  ]
+}

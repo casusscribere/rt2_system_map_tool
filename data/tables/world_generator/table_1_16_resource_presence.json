@@ -1,0 +1,21 @@
+{
+  "id": "table_1_16_resource_presence",
+  "name": "Table 1-16: Resource Presence",
+  "_source": "src_rt14_stars_p27",
+  "audience": "gm",
+  "_doc": "Per-body-size formulas for mineral and additional resource counts.",
+  "by_body": {
+    "small": {
+      "base_mineral": "1d5-2 (min 0)",
+      "additional": "1d5-3 (min 0)"
+    },
+    "large": {
+      "base_mineral": "1d5",
+      "additional": "1d5-2 (min 0)"
+    },
+    "vast": {
+      "base_mineral": "1d10",
+      "additional": "1d5-1 (min 0)"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "table_2_29_ship_components",
+  "name": "Table 2-29: Ship Components",
+  "_source": "src_rt14_stars_p85",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Ship Components are vast by Explorer scale -- they cannot be hauled out of a cavern without a major excavation. Detailed component stats live in RT Core / Into the Storm / Battlefleet Koronus.",
+  "rows": [
+    {"range_min": 1,  "range_max": 2,  "name": "Plasma Drive"},
+    {"range_min": 3,  "range_max": 3,  "name": "Warp Drive"},
+    {"range_min": 4,  "range_max": 4,  "name": "Gellar Field"},
+    {"range_min": 5,  "range_max": 5,  "name": "Void Shield"},
+    {"range_min": 6,  "range_max": 6,  "name": "Ship's Bridge"},
+    {"range_min": 7,  "range_max": 7,  "name": "Augur Array"},
+    {"range_min": 8,  "range_max": 9,  "name": "Lance"},
+    {"range_min": 10, "range_max": 10, "name": "Macrocannon"}
+  ]
+}

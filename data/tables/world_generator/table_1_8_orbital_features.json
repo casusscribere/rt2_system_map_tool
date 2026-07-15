@@ -1,0 +1,68 @@
+{
+  "id": "table_1_8_orbital_features",
+  "name": "Table 1-8: Orbital Features",
+  "_source": "src_rt14_stars_p20",
+  "audience": "gm",
+  "die": "d100",
+  "_doc": "Roll N times based on Gravity result. Subtables for Rocky Planets vs Gas Giants.",
+  "subtables": {
+    "rocky_planets": [
+      {
+        "range_min": 1,
+        "range_max": 45,
+        "name": "No Features",
+        "description": "No notable features are added to the Planet's orbit."
+      },
+      {
+        "range_min": 46,
+        "range_max": 60,
+        "name": "Large Asteroid",
+        "description": "An asteroid of unusual size has been captured by the Planet's gravity well, in a stable orbit. Large enough to be noted by an orbital survey, but not seen from the surface without visual enhancement."
+      },
+      {
+        "range_min": 61,
+        "range_max": 90,
+        "name": "Lesser Moon",
+        "description": "An orbital body between an extremely large asteroid and a very small moon. Limited gravity well allows low-gravity travel (RT Core p.269). Roll 1d10; on 6+ it counts as a Resource \u2014 roll once on Table 1-20: Mineral Resources and once on Table 1-19 (Abundance) at -5."
+      },
+      {
+        "range_min": 91,
+        "range_max": 100,
+        "name": "Moon",
+        "description": "A true moon, generated as a Planet (Planet Creation p.19). Normally cannot have a higher Planetary Body than its parent. A moon never generates its own Orbital Features."
+      }
+    ],
+    "gas_giants": [
+      {
+        "range_min": 1,
+        "range_max": 20,
+        "name": "No Features",
+        "description": "No notable features added to the Gas Giant's orbit."
+      },
+      {
+        "range_min": 21,
+        "range_max": 35,
+        "name": "Planetary Rings (Debris)",
+        "description": "Narrow band of asteroids/ice. Direct passage requires Challenging (+0) Pilot (Space Craft)+Manoeuvrability as if Asteroid Field (RT Core p.226-227). Multiple instances stack: -10 to passage tests per additional instance."
+      },
+      {
+        "range_min": 36,
+        "range_max": 50,
+        "name": "Planetary Rings (Dust)",
+        "description": "Wide ring of fine particles. Auger tests through the ring are two steps more difficult. Multiple instances increase the existing Rings; -5 additional auger-penalty for every two additional instances."
+      },
+      {
+        "range_min": 51,
+        "range_max": 85,
+        "name": "Lesser Moon",
+        "description": "Roll 1d10; on 6+ houses sufficient mineral wealth to count as a Resource \u2014 roll once on Table 1-20 and determine Abundance by rolling 5d10+5."
+      },
+      {
+        "range_min": 86,
+        "range_max": 100,
+        "name": "Moon",
+        "description": "Generated as a Planet (page 19). Cannot have higher Planetary Body than parent. Never generates its own Orbital Features."
+      }
+    ]
+  }
+}

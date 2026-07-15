@@ -1,0 +1,40 @@
+{
+  "id": "table_1_24_bestial_archetypes",
+  "name": "Table 1-24: Bestial Archetypes",
+  "_source": "src_rt14_stars_p34",
+  "audience": "gm",
+  "die": "d5",
+  "_doc": "Determines the broad category of a Notable Species. Each archetype has a basic Profile and a Bestial Natures sub-table for refinement.",
+  "rows": [
+    {
+      "range_min": 1,
+      "range_max": 1,
+      "name": "Apex Predator",
+      "description": "Vicious species at the top of the local food chain. Profile: WS 58, S 48, T 45, Ag 48, Wounds 15, Natural Weapons (1d10+4 I/R, Primitive)."
+    },
+    {
+      "range_min": 2,
+      "range_max": 2,
+      "name": "Behemoth",
+      "description": "Vast lumbering creature, often placid but supremely territorial. Profile: WS 40, S 70, T 65, Wounds (large)."
+    },
+    {
+      "range_min": 3,
+      "range_max": 3,
+      "name": "Ptera-Beast",
+      "description": "Flying species dominating the skies. Aerial-combat capable."
+    },
+    {
+      "range_min": 4,
+      "range_max": 4,
+      "name": "Shadowed Stalker",
+      "description": "Stealth-oriented species relying on concealment and ambush."
+    },
+    {
+      "range_min": 5,
+      "range_max": 5,
+      "name": "Venomous Terror",
+      "description": "Poison-using species \u2014 venom-injection or atmospheric toxin emission."
+    }
+  ]
+}

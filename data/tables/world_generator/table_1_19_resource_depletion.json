@@ -1,0 +1,33 @@
+{
+  "id": "table_1_19_resource_depletion",
+  "name": "Table 1-19: Resource Depletion",
+  "_source": "src_rt14_stars_p28",
+  "audience": "gm",
+  "_doc": "Abundance reductions per endeavour/colony activity.",
+  "rows": [
+    {
+      "endeavour_size": "Completing a Single Objective",
+      "abundance_reduction": "1d5"
+    },
+    {
+      "endeavour_size": "Completing a Lesser Endeavour",
+      "abundance_reduction": "1d10"
+    },
+    {
+      "endeavour_size": "Completing an Endeavour",
+      "abundance_reduction": "3d10+5"
+    },
+    {
+      "endeavour_size": "Completing a Grand Endeavour",
+      "abundance_reduction": "5d10+5"
+    },
+    {
+      "endeavour_size": "Small Colony's Yearly Take",
+      "abundance_reduction": "1d10+2"
+    },
+    {
+      "endeavour_size": "Large Colony's Yearly Take",
+      "abundance_reduction": "3d10+5"
+    }
+  ]
+}

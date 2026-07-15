@@ -1,0 +1,39 @@
+{
+  "id": "table_1_21_organic_resources",
+  "name": "Table 1-21: Organic Resources",
+  "_source": "src_rt14_stars_p30",
+  "audience": "gm",
+  "die": "d10",
+  "rows": [
+    {
+      "range_min": 1,
+      "range_max": 2,
+      "name": "Curative",
+      "description": "Restorative compounds \u2014 herbs, fungi, blood. Selling raw to Magos Biologis or Orders Hospitaller for processing. Raw application = -40 to Medicae; minor effects only, may inflict Corruption or Insanity."
+    },
+    {
+      "range_min": 3,
+      "range_max": 4,
+      "name": "Juvenat Compound",
+      "description": "Life-extension compounds. Must be processed at specialised facilities (rare in Calixis Sector). Toxic or dangerous in raw form."
+    },
+    {
+      "range_min": 5,
+      "range_max": 6,
+      "name": "Toxin",
+      "description": "Venoms and poisons. Limited legitimate markets; high black-market value when unknown to food-tasters. Raw exposure: Challenging (+0) Toughness Test or 1d10 Wounds (ignores Armour & TB)."
+    },
+    {
+      "range_min": 7,
+      "range_max": 9,
+      "name": "Vivid Accessory",
+      "description": "Exotic horn/bone/ivory/pelts/dyes for Calixian noble fashion. Driving exotic beasts to demand."
+    },
+    {
+      "range_min": 10,
+      "range_max": 10,
+      "name": "Exotic Compound",
+      "description": "Bizarre Expanse-specific effects \u2014 singing flowers, undying carved wood, exotic combat drugs. Hard to categorise; high-risk high-reward."
+    }
+  ]
+}

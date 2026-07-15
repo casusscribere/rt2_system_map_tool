@@ -1,0 +1,30 @@
+{
+  "id": "table_1_13_number_of_territories",
+  "name": "Table 1-13: Number of Territories",
+  "_source": "src_rt14_stars_p24",
+  "audience": "gm",
+  "_doc": "Base 1d5 plus body-size and habitability modifiers.",
+  "base_formula": "1d5",
+  "modifiers": [
+    {
+      "condition": "Planetary Body: Small",
+      "value": -2
+    },
+    {
+      "condition": "Planetary Body: Large",
+      "value": 0
+    },
+    {
+      "condition": "Planetary Body: Vast",
+      "value": 3
+    },
+    {
+      "condition": "Habitability: Limited Ecosystem",
+      "value": 0
+    },
+    {
+      "condition": "Habitability: Verdant",
+      "value": 2
+    }
+  ]
+}

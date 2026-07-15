@@ -1,0 +1,14 @@
+{
+  "id": "table_2_34_craftsmanship",
+  "name": "Table 2-34: Craftsmanship",
+  "_source": "src_rt14_stars_p92",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Apply the cascade bonus from the artefact's Origin: Ancient Miracle adds +3 (max 10); Finely Wrought skips this table and goes straight to Best. Cursed Artefact and Alien Technology roll normally.",
+  "rows": [
+    {"range_min": -10, "range_max": 2,  "name": "Poor"},
+    {"range_min": 3,   "range_max": 7,  "name": "Common"},
+    {"range_min": 8,   "range_max": 9,  "name": "Good"},
+    {"range_min": 10,  "range_max": 20, "name": "Best"}
+  ]
+}

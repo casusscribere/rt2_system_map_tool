@@ -1,0 +1,15 @@
+{
+  "id": "table_2_32_xenos_construction",
+  "name": "Table 2-32: Xenos Construction",
+  "_source": "src_rt14_stars_p88",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Roll for an Alien Technology artefact to determine the xenos design style. Ramshackle weapons additionally roll a second Quirk.",
+  "rows": [
+    {"range_min": 1,  "range_max": 2,  "name": "Ramshackle",              "_page": 88, "description": "Brutal, crude, slap-dash construction. Often Ork or feral xenos work. Weapons additionally roll a second Quirk.", "_special": "weapon_extra_quirk"},
+    {"range_min": 3,  "range_max": 4,  "name": "Peerless Elegance",       "_page": 89, "description": "Eldar-style construction: flowing, deceptively delicate, devastating."},
+    {"range_min": 5,  "range_max": 6,  "name": "Innovative Design",       "_page": 89, "description": "A bizarre engineering approach humans cannot fully understand, but which works."},
+    {"range_min": 7,  "range_max": 8,  "name": "Remnant of the Endless",  "_page": 89, "description": "Construction reminiscent of the metallic creations of long-vanished species (e.g. Necrontyr) -- alarmingly self-repairing."},
+    {"range_min": 9,  "range_max": 10, "name": "Death-Dream's Fragment",  "_page": 88, "description": "Construction that seems to draw on the Warp -- subtly cursed, often Yu'Vath or otherwise abhorrent."}
+  ]
+}

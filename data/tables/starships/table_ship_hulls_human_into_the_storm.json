@@ -1,0 +1,16 @@
+{
+  "id": "table_ship_hulls_human_into_the_storm",
+  "name": "Human Ship Hulls -- Into the Storm sub-table",
+  "_source": "src_rt04_into_the_storm",
+  "audience": "gm",
+  "die": "d100_lowest_of_two",
+  "rows": [
+    {"range_min": 1,  "range_max": 15, "name": "Loki-class Q-ship",            "class": "Transport",    "_book": "RT04_ItS", "_page": 151},
+    {"range_min": 16, "range_max": 30, "name": "Orion-class Star Clipper",     "class": "Transport",    "_book": "RT04_ItS", "_page": 151},
+    {"range_min": 31, "range_max": 45, "name": "Cobra-class Destroyer",        "class": "Raider",       "_book": "RT04_ItS", "_page": 152},
+    {"range_min": 46, "range_max": 70, "name": "Firestorm-class Frigate",      "class": "Frigate",      "_book": "RT04_ItS", "_page": 152},
+    {"range_min": 71, "range_max": 80, "name": "Secutor-class Monitor-cruiser","class": "LightCruiser", "_book": "RT04_ItS", "_page": 152},
+    {"range_min": 81, "range_max": 90, "name": "Lathe-class Monitor-cruiser",  "class": "LightCruiser", "_book": "RT04_ItS", "_page": 152},
+    {"range_min": 91, "range_max": 100,"name": "Tyrant-class Cruiser",         "class": "Cruiser",      "_book": "RT04_ItS", "_page": 153}
+  ]
+}

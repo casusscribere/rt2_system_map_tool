@@ -1,0 +1,19 @@
+{
+  "id": "table_ship_hulls_chaos_reaver",
+  "name": "Chaos Reaver (Renegade) Ship Hulls",
+  "_source": "src_rt09_battlefleet_koronus_p104_to_p110",
+  "audience": "gm",
+  "die": "d100_lowest_of_two",
+  "rows": [
+    {"range_min": 1,  "range_max": 15, "name": "Soulcage Slaveship",            "class": "Transport",    "_book": "RT09_BFK", "_page": 104},
+    {"range_min": 16, "range_max": 25, "name": "Hellbringer Planetary Assault Ship","class": "LightCruiser","_book": "RT09_BFK", "_page": 104},
+    {"range_min": 26, "range_max": 35, "name": "Devastation-class Cruiser",      "class": "Cruiser",      "_book": "RT09_BFK", "_page": 105},
+    {"range_min": 36, "range_max": 39, "name": "Retaliator-class Grand Cruiser", "class": "GrandCruiser", "_book": "RT09_BFK", "_page": 106},
+    {"range_min": 40, "range_max": 49, "name": "Pestilaan Light Cruiser",         "class": "LightCruiser", "_book": "RT09_BFK", "_page": 107},
+    {"range_min": 50, "range_max": 55, "name": "Slaughter-class Cruiser",         "class": "Cruiser",      "_book": "RT09_BFK", "_page": 107},
+    {"range_min": 56, "range_max": 60, "name": "Carnage-class Cruiser",           "class": "Cruiser",      "_book": "RT09_BFK", "_page": 108},
+    {"range_min": 61, "range_max": 63, "name": "Hades-class Heavy Cruiser",       "class": "HeavyCruiser", "_book": "RT09_BFK", "_page": 109},
+    {"range_min": 64, "range_max": 85, "name": "Infidel-class Raider",            "class": "Raider",       "_book": "RT09_BFK", "_page": 110},
+    {"range_min": 86, "range_max": 100,"name": "Iconoclast-class Destroyer",      "class": "Raider",       "_book": "RT09_BFK", "_page": 110}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "table_2_35_quirks",
+  "name": "Table 2-35: Quirks",
+  "_source": "src_rt14_stars_p92",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Roll for an artefact Quirk. When rolling a second Quirk, re-roll if it duplicates the first.",
+  "rows": [
+    {"range_min": 1,  "range_max": 1,  "name": "Surly"},
+    {"range_min": 2,  "range_max": 2,  "name": "Cruel"},
+    {"range_min": 3,  "range_max": 3,  "name": "Patient"},
+    {"range_min": 4,  "range_max": 4,  "name": "Unpredictable"},
+    {"range_min": 5,  "range_max": 5,  "name": "Resplendent"},
+    {"range_min": 6,  "range_max": 6,  "name": "Vanishing"},
+    {"range_min": 7,  "range_max": 7,  "name": "Trusty"},
+    {"range_min": 8,  "range_max": 8,  "name": "Zealous"},
+    {"range_min": 9,  "range_max": 9,  "name": "Dogged"},
+    {"range_min": 10, "range_max": 10, "name": "Lucky"}
+  ]
+}

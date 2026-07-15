@@ -1,0 +1,14 @@
+{
+  "id": "table_2_30_origin",
+  "name": "Table 2-30: Artefact Origin",
+  "_source": "src_rt14_stars_p85",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Roll once per artefact to determine its origin. Each origin selects a downstream cascade: Finely Wrought -> Skilled Craftsmanship; Ancient Miracle -> Archeotech (Miracles of the Dark Age); Alien Technology -> Xenos Tech (Xenos Construction); Cursed Artefact -> Twisted Omens (Mark of the Curse).",
+  "rows": [
+    {"range_min": 1,  "range_max": 3,  "name": "Finely Wrought",   "cascade": "skilled_craftsmanship", "_page": 85},
+    {"range_min": 4,  "range_max": 6,  "name": "Ancient Miracle",  "cascade": "archeotech",            "_page": 86},
+    {"range_min": 7,  "range_max": 8,  "name": "Alien Technology", "cascade": "xenos_tech",            "_page": 88},
+    {"range_min": 9,  "range_max": 10, "name": "Cursed Artefact",  "cascade": "twisted_omens",         "_page": 90}
+  ]
+}

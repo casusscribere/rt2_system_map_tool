@@ -1,0 +1,52 @@
+{
+  "id": "table_1_5_starship_graveyard_origins",
+  "name": "Table 1-5: Starship Graveyard Origins",
+  "_source": "src_rt14_stars_p17",
+  "audience": "gm",
+  "die": "d100",
+  "_doc": "When a System Element generates a Starship Graveyard, roll on this Table to determine its origin and composition.",
+  "rows": [
+    {
+      "range_min": 1,
+      "range_max": 15,
+      "name": "Crushed Defence Force / Routed Invasion",
+      "description": "The wreckage is all that remains of a defeated battlefleet. Whichever side of the long-ago conflict that fielded these vessels was decisively defeated, with most or all of the hulks belonging to the same force. The graveyard consists of 2d5 ships, of which most or all have been shattered beyond any value.",
+      "ship_count_formula": "2d5"
+    },
+    {
+      "range_min": 16,
+      "range_max": 20,
+      "name": "Fleet Engagement",
+      "description": "A massive conflict once raged here, as evidenced by the abundance of battle-scarred hulls left behind by both sides. The graveyard consists of 1d10+6 hulks, and can also include vast fields of unexploded mines, spent volleys of torpedoes, or the drifting wings of attack craft. Roughly half of the ships and materiel expended came from each side.",
+      "ship_count_formula": "1d10+6"
+    },
+    {
+      "range_min": 21,
+      "range_max": 35,
+      "name": "Lost Explorers",
+      "description": "These ships were not lost to enemy action, but to overextended supply vaults, or the failure of long suffering vital systems. The expedition is unlikely to include as many as even half a dozen ships, but few (if any) of them have deteriorated enough to prohibit salvage efforts.",
+      "ship_count_formula": "1d5"
+    },
+    {
+      "range_min": 36,
+      "range_max": 65,
+      "name": "Plundered Convoy",
+      "description": "A lost shipping lane of some kind might have once crossed this system, as evidenced by this gutted procession of transports and cargo vessels. Their holds have been long since emptied, but it is possible their attackers might have missed something of value. There are 1d5+2 ships in the convoy, of which most or all remain intact enough to allow boarding, but little else.",
+      "ship_count_formula": "1d5+2"
+    },
+    {
+      "range_min": 66,
+      "range_max": 90,
+      "name": "Skirmish",
+      "description": "Elements from two different battlefleets clashed here, with each leaving behind a handful of their complement. The graveyard consists of 1d5+3 hulks. Roughly half of the ships came from each side.",
+      "ship_count_formula": "1d5+3"
+    },
+    {
+      "range_min": 91,
+      "range_max": 100,
+      "name": "Unknown Provenance",
+      "description": "The bizarre assortment of different vessels drifting past defies easy explanation. It is likely to bring to mind the eerie legends of the Processional of the Damned. Consists of dozens of utterly ruined ships of all kinds, as well as 1d5 hulks in varying degrees of integrity. None of the hulks share an origin.",
+      "ship_count_formula": "1d5 (plus dozens of ruined ships)"
+    }
+  ]
+}

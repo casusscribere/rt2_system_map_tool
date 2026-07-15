@@ -1,0 +1,23 @@
+{
+  "id": "table_ship_hulls_ork",
+  "name": "Ork Ship Hulls",
+  "_source": "src_rt09_battlefleet_koronus_p79_to_p83",
+  "audience": "gm",
+  "die": "d100_lowest_of_two",
+  "_doc": "Frigate-class roll picks one of two ships via a secondary 1d10; same for Kruisers (Kill vs Terror). Ork ships always get 1 random small-ship upgrade; capital ships also get 1 capital-ship upgrade.",
+  "rows": [
+    {"range_min": 1,  "range_max": 35, "name": "Savage Gunship OR Ravager Attack Ship", "class": "Frigate",
+     "secondary_roll": {"die": "d10", "le_5": "Savage Gunship", "ge_6": "Ravager Attack Ship"},
+     "_book": "RT09_BFK", "_page": 80,
+     "upgrades": ["ork_small_ship_upgrades:1"]},
+    {"range_min": 36, "range_max": 65, "name": "Brute Ram Ship", "class": "Raider",
+     "_book": "RT09_BFK", "_page": 81},
+    {"range_min": 66, "range_max": 95, "name": "Kill Kroozer OR Terror Ship", "class": "Cruiser",
+     "secondary_roll": {"die": "d10", "le_5": "Kill Kroozer", "ge_6": "Terror Ship"},
+     "_book": "RT09_BFK", "_page": 79,
+     "upgrades": ["ork_small_ship_upgrades:1", "ork_capital_ship_upgrades:1"]},
+    {"range_min": 96, "range_max": 100,"name": "Hammer Battlekroozer", "class": "BattleCruiser",
+     "_book": "RT09_BFK", "_page": 83,
+     "upgrades": ["ork_small_ship_upgrades:1", "ork_capital_ship_upgrades:1"]}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "table_2_31_miracles_of_the_dark_age",
+  "name": "Table 2-31: Miracles of the Dark Age",
+  "_source": "src_rt14_stars_p86",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Roll for an Ancient Miracle artefact. On 10 (Multiple Blessings) roll twice more (re-rolling further 10s and duplicates) and apply both.",
+  "rows": [
+    {"range_min": 1,  "range_max": 2,  "name": "Imposing",               "_page": 86, "description": "Visibly wrought with long-forgotten heraldry and emblems of a past age, inspiring fearful awe."},
+    {"range_min": 3,  "range_max": 4,  "name": "Compact",                "_page": 86, "description": "Miniaturised without sacrificing functionality."},
+    {"range_min": 5,  "range_max": 5,  "name": "Steady",                 "_page": 86, "description": "Rugged and unfailingly dependable under sub-optimal conditions."},
+    {"range_min": 6,  "range_max": 6,  "name": "Potent",                 "_page": 87, "description": "Powerfully built, performing above and beyond modern equivalents."},
+    {"range_min": 7,  "range_max": 7,  "name": "Swirling Energy",        "_page": 87, "description": "Wreathed in a precisely-calibrated energy field, made with long-forgotten techniques."},
+    {"range_min": 8,  "range_max": 8,  "name": "Incalculable Precision", "_page": 87, "description": "Crafted to a meticulousness modern artisans cannot hope to replicate."},
+    {"range_min": 9,  "range_max": 9,  "name": "Indestructible",         "_page": 87, "description": "Shaped from an arcane material that defies analysis and damage alike."},
+    {"range_min": 10, "range_max": 10, "name": "Multiple Blessings",     "_page": 86, "description": "Roll again twice on this table (re-rolling further 10s and duplicates) and apply both results.", "_recursive": true}
+  ]
+}

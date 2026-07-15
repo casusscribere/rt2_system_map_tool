@@ -1,0 +1,170 @@
+{
+  "id": "table_1_25_bestial_natures",
+  "name": "Table 1-25: Bestial Natures",
+  "_source": "src_rt14_stars_p35",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Per-archetype sub-tables. Roll at least once on the section matching the Bestial Archetype. Each Nature adds traits/abilities to refine the species.",
+  "subtables": {
+    "apex_predators": [
+      {
+        "range_min": 1,
+        "range_max": 2,
+        "name": "Adapted"
+      },
+      {
+        "range_min": 3,
+        "range_max": 4,
+        "name": "Brute"
+      },
+      {
+        "range_min": 5,
+        "range_max": 6,
+        "name": "Cunning Stalker"
+      },
+      {
+        "range_min": 7,
+        "range_max": 7,
+        "name": "Killing Machine"
+      },
+      {
+        "range_min": 8,
+        "range_max": 8,
+        "name": "Living Arsenal"
+      },
+      {
+        "range_min": 9,
+        "range_max": 10,
+        "name": "Natural Prowess"
+      }
+    ],
+    "behemoths": [
+      {
+        "range_min": 1,
+        "range_max": 1,
+        "name": "Beyond Challenge"
+      },
+      {
+        "range_min": 2,
+        "range_max": 3,
+        "name": "Impossible Grace"
+      },
+      {
+        "range_min": 4,
+        "range_max": 5,
+        "name": "Leviathan"
+      },
+      {
+        "range_min": 6,
+        "range_max": 7,
+        "name": "Megapredator"
+      },
+      {
+        "range_min": 8,
+        "range_max": 8,
+        "name": "Titanborn"
+      },
+      {
+        "range_min": 9,
+        "range_max": 10,
+        "name": "Unstoppable"
+      }
+    ],
+    "ptera_beasts": [
+      {
+        "range_min": 1,
+        "range_max": 1,
+        "name": "Aerial Impossibility"
+      },
+      {
+        "range_min": 2,
+        "range_max": 3,
+        "name": "Doom Diver"
+      },
+      {
+        "range_min": 4,
+        "range_max": 5,
+        "name": "Earth-Scorning"
+      },
+      {
+        "range_min": 6,
+        "range_max": 6,
+        "name": "Skyless Flight"
+      },
+      {
+        "range_min": 7,
+        "range_max": 9,
+        "name": "Swift Flyer"
+      },
+      {
+        "range_min": 10,
+        "range_max": 10,
+        "name": "Wyrdwing"
+      }
+    ],
+    "shadowed_stalkers": [
+      {
+        "range_min": 1,
+        "range_max": 2,
+        "name": "Adapted"
+      },
+      {
+        "range_min": 3,
+        "range_max": 4,
+        "name": "Chameleonic"
+      },
+      {
+        "range_min": 5,
+        "range_max": 6,
+        "name": "Deadly Ambusher"
+      },
+      {
+        "range_min": 7,
+        "range_max": 7,
+        "name": "Lure"
+      },
+      {
+        "range_min": 8,
+        "range_max": 8,
+        "name": "Shadow-walking"
+      },
+      {
+        "range_min": 9,
+        "range_max": 10,
+        "name": "Vanisher"
+      }
+    ],
+    "venomous_terrors": [
+      {
+        "range_min": 1,
+        "range_max": 1,
+        "name": "Deadly Touch"
+      },
+      {
+        "range_min": 2,
+        "range_max": 2,
+        "name": "Delirium Bringer"
+      },
+      {
+        "range_min": 3,
+        "range_max": 4,
+        "name": "Toxic Hunter"
+      },
+      {
+        "range_min": 5,
+        "range_max": 6,
+        "name": "Hidden Death"
+      },
+      {
+        "range_min": 7,
+        "range_max": 8,
+        "name": "Poisonous Presence"
+      },
+      {
+        "range_min": 9,
+        "range_max": 10,
+        "name": "Potent Toxins"
+      }
+    ]
+  }
+}

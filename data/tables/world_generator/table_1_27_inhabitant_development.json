@@ -1,0 +1,168 @@
+{
+  "id": "table_1_27_inhabitant_development",
+  "name": "Table 1-27: Inhabitant Development",
+  "_source": "src_rt14_stars_p40",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Per-species sub-tables. Roll once per inhabited Planet's primary Species.",
+  "subtables": {
+    "eldar": [
+      {
+        "range_min": 1,
+        "range_max": 3,
+        "name": "Primitive Clans (Exodites)",
+        "note": "Re-roll on uninhabitable Planet"
+      },
+      {
+        "range_min": 4,
+        "range_max": 8,
+        "name": "Orbital Habitation"
+      },
+      {
+        "range_min": 9,
+        "range_max": 10,
+        "name": "Voidfarers"
+      }
+    ],
+    "humans": [
+      {
+        "range_min": 1,
+        "range_max": 2,
+        "name": "Advanced Industry"
+      },
+      {
+        "range_min": 3,
+        "range_max": 4,
+        "name": "Basic Industry",
+        "note": "Re-roll on uninhabitable Planet"
+      },
+      {
+        "range_min": 5,
+        "range_max": 5,
+        "name": "Colony"
+      },
+      {
+        "range_min": 6,
+        "range_max": 6,
+        "name": "Orbital Habitation"
+      },
+      {
+        "range_min": 7,
+        "range_max": 8,
+        "name": "Pre-Industrial",
+        "note": "Re-roll on uninhabitable Planet"
+      },
+      {
+        "range_min": 9,
+        "range_max": 9,
+        "name": "Primitive Clans",
+        "note": "Re-roll on uninhabitable Planet"
+      },
+      {
+        "range_min": 10,
+        "range_max": 10,
+        "name": "Voidfarers"
+      }
+    ],
+    "kroot": [
+      {
+        "range_min": 1,
+        "range_max": 7,
+        "name": "Primitive Clans"
+      },
+      {
+        "range_min": 8,
+        "range_max": 10,
+        "name": "Colony"
+      }
+    ],
+    "orks": [
+      {
+        "range_min": 1,
+        "range_max": 4,
+        "name": "Advanced Industry"
+      },
+      {
+        "range_min": 5,
+        "range_max": 5,
+        "name": "Colony"
+      },
+      {
+        "range_min": 6,
+        "range_max": 8,
+        "name": "Primitive Clans"
+      },
+      {
+        "range_min": 9,
+        "range_max": 10,
+        "name": "Voidfarers"
+      }
+    ],
+    "rakgol": [
+      {
+        "range_min": 1,
+        "range_max": 2,
+        "name": "Colony"
+      },
+      {
+        "range_min": 3,
+        "range_max": 4,
+        "name": "Orbital"
+      },
+      {
+        "range_min": 5,
+        "range_max": 10,
+        "name": "Voidfarers"
+      }
+    ],
+    "xenos_other": [
+      {
+        "range_min": 1,
+        "range_max": 1,
+        "name": "Advanced Industry"
+      },
+      {
+        "range_min": 2,
+        "range_max": 3,
+        "name": "Basic Industry",
+        "note": "Re-roll on uninhabitable Planet"
+      },
+      {
+        "range_min": 4,
+        "range_max": 4,
+        "name": "Colony"
+      },
+      {
+        "range_min": 5,
+        "range_max": 5,
+        "name": "Orbital Habitation"
+      },
+      {
+        "range_min": 6,
+        "range_max": 7,
+        "name": "Pre-Industrial",
+        "note": "Re-roll on uninhabitable Planet (GMs may use Koronus Bestiary)"
+      },
+      {
+        "range_min": 8,
+        "range_max": 9,
+        "name": "Primitive Clans",
+        "note": "Re-roll on uninhabitable Planet (GMs may use Koronus Bestiary)"
+      },
+      {
+        "range_min": 10,
+        "range_max": 10,
+        "name": "Voidfarers"
+      }
+    ]
+  },
+  "development_levels": [
+    "Primitive Clans (lowest)",
+    "Pre-Industrial",
+    "Basic Industry",
+    "Advanced Industry (no void travel)",
+    "Colony (special \u2014 established offworld settlement)",
+    "Orbital Habitation (special \u2014 orbital civilisation)",
+    "Voidfarers (highest \u2014 capable of void travel)"
+  ]
+}

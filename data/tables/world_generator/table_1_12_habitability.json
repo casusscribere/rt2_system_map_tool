@@ -1,0 +1,40 @@
+{
+  "id": "table_1_12_habitability",
+  "name": "Table 1-12: Habitability",
+  "_source": "src_rt14_stars_p23",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Skip if Planet has no atmosphere OR atmosphere is not Tainted/Pure. Hot/Cold Worlds apply -2. Burning/Ice Worlds apply -7 and cap result at 3.",
+  "rows": [
+    {
+      "range_min": -99,
+      "range_max": 1,
+      "name": "Inhospitable",
+      "description": "No life or water on this Planet."
+    },
+    {
+      "range_min": 2,
+      "range_max": 3,
+      "name": "Trapped Water",
+      "description": "Water exists but requires processing \u2014 frozen, vaporised, deep underground, or contaminated."
+    },
+    {
+      "range_min": 4,
+      "range_max": 5,
+      "name": "Liquid Water",
+      "description": "Liquid water accessible on the surface, but no native life has arisen."
+    },
+    {
+      "range_min": 6,
+      "range_max": 7,
+      "name": "Limited Ecosystem",
+      "description": "Native life of limited variety \u2014 basic proto-biology or restricted spread."
+    },
+    {
+      "range_min": 8,
+      "range_max": 99,
+      "name": "Verdant",
+      "description": "Thriving native ecosystem with diverse life forms."
+    }
+  ]
+}

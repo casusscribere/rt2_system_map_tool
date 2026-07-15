@@ -1,0 +1,205 @@
+{
+  "id": "table_1_15_territory_traits",
+  "name": "Table 1-15: Territory Traits",
+  "_source": "src_rt14_stars_p25",
+  "audience": "gm",
+  "die": "d100",
+  "_doc": "Per-terrain sub-tables. Roll 1d5-1 (minimum 1) times on the appropriate section based on the Territory's Base Terrain. Each result is a trait that modifies the Territory's effects.",
+  "subtables": {
+    "forests": [
+      {
+        "range_min": 1,
+        "range_max": 5,
+        "name": "Exotic Nature"
+      },
+      {
+        "range_min": 6,
+        "range_max": 25,
+        "name": "Expansive"
+      },
+      {
+        "range_min": 26,
+        "range_max": 40,
+        "name": "Extreme Temperature"
+      },
+      {
+        "range_min": 41,
+        "range_max": 65,
+        "name": "Notable Species"
+      },
+      {
+        "range_min": 66,
+        "range_max": 80,
+        "name": "Unique Compound"
+      },
+      {
+        "range_min": 81,
+        "range_max": 95,
+        "name": "Unusual Location"
+      },
+      {
+        "range_min": 96,
+        "range_max": 100,
+        "name": "Roll again twice and apply both"
+      }
+    ],
+    "mountain_ranges": [
+      {
+        "range_min": 1,
+        "range_max": 25,
+        "name": "Boundary"
+      },
+      {
+        "range_min": 26,
+        "range_max": 50,
+        "name": "Expansive"
+      },
+      {
+        "range_min": 51,
+        "range_max": 65,
+        "name": "Extreme Temperature"
+      },
+      {
+        "range_min": 66,
+        "range_max": 75,
+        "name": "Foothills"
+      },
+      {
+        "range_min": 76,
+        "range_max": 85,
+        "name": "Notable Species"
+      },
+      {
+        "range_min": 86,
+        "range_max": 95,
+        "name": "Unusual Location"
+      },
+      {
+        "range_min": 96,
+        "range_max": 100,
+        "name": "Roll again twice and apply both"
+      }
+    ],
+    "plains": [
+      {
+        "range_min": 1,
+        "range_max": 10,
+        "name": "Broken Ground"
+      },
+      {
+        "range_min": 11,
+        "range_max": 30,
+        "name": "Expansive"
+      },
+      {
+        "range_min": 31,
+        "range_max": 45,
+        "name": "Extreme Temperature"
+      },
+      {
+        "range_min": 46,
+        "range_max": 70,
+        "name": "Fertile"
+      },
+      {
+        "range_min": 71,
+        "range_max": 85,
+        "name": "Notable Species"
+      },
+      {
+        "range_min": 86,
+        "range_max": 95,
+        "name": "Unusual Location"
+      },
+      {
+        "range_min": 96,
+        "range_max": 100,
+        "name": "Roll again twice and apply both"
+      }
+    ],
+    "swamps": [
+      {
+        "range_min": 1,
+        "range_max": 10,
+        "name": "Expansive"
+      },
+      {
+        "range_min": 11,
+        "range_max": 30,
+        "name": "Extreme Temperature"
+      },
+      {
+        "range_min": 31,
+        "range_max": 45,
+        "name": "Notable Species"
+      },
+      {
+        "range_min": 46,
+        "range_max": 65,
+        "name": "Stagnant"
+      },
+      {
+        "range_min": 66,
+        "range_max": 75,
+        "name": "Unusual Location"
+      },
+      {
+        "range_min": 76,
+        "range_max": 95,
+        "name": "Virulent"
+      },
+      {
+        "range_min": 96,
+        "range_max": 100,
+        "name": "Roll again twice and apply both"
+      }
+    ],
+    "wastelands": [
+      {
+        "range_min": 1,
+        "range_max": 20,
+        "name": "Desolate"
+      },
+      {
+        "range_min": 21,
+        "range_max": 40,
+        "name": "Expansive"
+      },
+      {
+        "range_min": 41,
+        "range_max": 70,
+        "name": "Extreme Temperature"
+      },
+      {
+        "range_min": 71,
+        "range_max": 75,
+        "name": "Notable Species"
+      },
+      {
+        "range_min": 76,
+        "range_max": 80,
+        "name": "Ruined"
+      },
+      {
+        "range_min": 81,
+        "range_max": 95,
+        "name": "Unusual Location"
+      },
+      {
+        "range_min": 96,
+        "range_max": 100,
+        "name": "Roll again twice and apply both"
+      }
+    ]
+  },
+  "trait_descriptions": {
+    "fertile": "The soil is especially fecund. Unique strains may pop up; can serve as agricultural outpost.",
+    "foothills": "A single towering peak qualifies as a Mountain Landmark; supersedes (does not stack with) normal Mountain Range navigate bonuses.",
+    "notable_species": "One of the Planet's more noteworthy native species is found only in this Territory. Generate a new species or a dramatic local variation. May source an Organic Compound Resource (GM discretion).",
+    "ruined": "Land wounded by outside forces (orbital strike, war, daemonic incursion). Fear Test to enter (difficulty by cataclysm). Within: +1 additional Corruption Point per Corruption gained.",
+    "stagnant": "Little life or activity. Travel times doubled; Navigation (Surface) Tests at -10.",
+    "unique_compound": "Local flora contains a substance of great value. The Planet gains an additional Organic Compound Resource \u2014 nature and Abundance generated normally.",
+    "unusual_location": "The Territory exists where local conditions would not normally create the Base Terrain (e.g., Forest in polar region, Wasteland surrounded by verdant fields). Possibly +10 to resist the Planet's typical extreme-temperature influence in the affected area.",
+    "virulent": "Marshy plague-cauldrons. Day spent here = Challenging (+0) Toughness Test or Wound (ignores TB & Armour). Drinking untreated water = Toxic Damage / fevers / Insanity. All Rending Damage here treated as Toxic. Medicae Tests at -20."
+  }
+}

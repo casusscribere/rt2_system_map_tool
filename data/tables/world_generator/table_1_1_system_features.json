@@ -1,0 +1,70 @@
+{
+  "id": "table_1_1_system_features",
+  "name": "Table 1-1: System Features",
+  "_source": "src_rt14_stars_p9",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Roll once for each System being generated. The result indicates a major feature shaping the system. A GM may roll more than once for a particularly developed System.",
+  "rows": [
+    {
+      "range_min": 1,
+      "range_max": 1,
+      "name": "Bountiful",
+      "_source": "src_rt14_stars_p9"
+    },
+    {
+      "range_min": 2,
+      "range_max": 2,
+      "name": "Gravity Tides",
+      "_source": "src_rt14_stars_p9"
+    },
+    {
+      "range_min": 3,
+      "range_max": 3,
+      "name": "Haven",
+      "_source": "src_rt14_stars_p9"
+    },
+    {
+      "range_min": 4,
+      "range_max": 4,
+      "name": "Ill-Omened",
+      "_source": "src_rt14_stars_p9"
+    },
+    {
+      "range_min": 5,
+      "range_max": 5,
+      "name": "Pirate Den",
+      "_source": "src_rt14_stars_p9"
+    },
+    {
+      "range_min": 6,
+      "range_max": 6,
+      "name": "Ruined Empire",
+      "_source": "src_rt14_stars_p9"
+    },
+    {
+      "range_min": 7,
+      "range_max": 7,
+      "name": "Starfarers",
+      "_source": "src_rt14_stars_p9"
+    },
+    {
+      "range_min": 8,
+      "range_max": 8,
+      "name": "Stellar Anomaly",
+      "_source": "src_rt14_stars_p9"
+    },
+    {
+      "range_min": 9,
+      "range_max": 9,
+      "name": "Warp Stasis",
+      "_source": "src_rt14_stars_p9"
+    },
+    {
+      "range_min": 10,
+      "range_max": 10,
+      "name": "Warp Turbulence",
+      "_source": "src_rt14_stars_p9"
+    }
+  ]
+}

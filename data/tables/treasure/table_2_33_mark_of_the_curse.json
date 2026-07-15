@@ -1,0 +1,15 @@
+{
+  "id": "table_2_33_mark_of_the_curse",
+  "name": "Table 2-33: Mark of the Curse",
+  "_source": "src_rt14_stars_p90",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Roll for a Cursed Artefact to determine the nature of the curse.",
+  "rows": [
+    {"range_min": 1,  "range_max": 2,  "name": "Bloodlust",  "_page": 90, "description": "The wielder is overtaken by murderous fury at inappropriate moments."},
+    {"range_min": 3,  "range_max": 4,  "name": "Mindkiller", "_page": 91, "description": "The artefact slowly erodes the user's intellect or memory."},
+    {"range_min": 5,  "range_max": 6,  "name": "Alluring",   "_page": 91, "description": "The artefact insinuates itself into its owner's affections, becoming psychologically inseparable."},
+    {"range_min": 7,  "range_max": 8,  "name": "Entropic",   "_page": 91, "description": "Mundane things near the artefact decay, fail, or break down at an accelerated rate."},
+    {"range_min": 9,  "range_max": 10, "name": "Deceitful",  "_page": 92, "description": "The artefact misrepresents itself, hides its true nature, or twists the user's perceptions."}
+  ]
+}

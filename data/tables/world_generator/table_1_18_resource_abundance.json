@@ -1,0 +1,45 @@
+{
+  "id": "table_1_18_resource_abundance",
+  "name": "Table 1-18: Resource Abundance",
+  "_source": "src_rt14_stars_p27",
+  "audience": "gm",
+  "die": "d100",
+  "rows": [
+    {
+      "range_min": -99,
+      "range_max": 15,
+      "name": "Minimal",
+      "description": "Trace amounts. Not enough to sustain ongoing extraction. Short-term operations have the best returns."
+    },
+    {
+      "range_min": 16,
+      "range_max": 40,
+      "name": "Limited",
+      "description": "Modest but worthwhile supply. Sustained operation could focus on this Resource alone for several years."
+    },
+    {
+      "range_min": 41,
+      "range_max": 65,
+      "name": "Sustainable",
+      "description": "Extensive reserves ensure the Resource remains a viable income source for some time."
+    },
+    {
+      "range_min": 66,
+      "range_max": 85,
+      "name": "Significant",
+      "description": "Rich and accessible, allowing for a wide variety of approaches."
+    },
+    {
+      "range_min": 86,
+      "range_max": 98,
+      "name": "Major",
+      "description": "Potential value vast, both immediate and long-term reserve. Significant investment required; supply encourages competition."
+    },
+    {
+      "range_min": 99,
+      "range_max": 99,
+      "name": "Plentiful",
+      "description": "Reserves seem limitless. Would take at least a decade to deplete, barring the most aggressive efforts."
+    }
+  ]
+}

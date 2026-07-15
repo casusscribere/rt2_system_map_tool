@@ -1,0 +1,29 @@
+{
+  "id": "table_1_20_mineral_resources",
+  "name": "Table 1-20: Mineral Resources",
+  "_source": "src_rt14_stars_p29",
+  "audience": "gm",
+  "die": "d10",
+  "rows": [
+    {
+      "range_min": 1,
+      "range_max": 4,
+      "name": "Industrial Metal"
+    },
+    {
+      "range_min": 5,
+      "range_max": 7,
+      "name": "Ornamental"
+    },
+    {
+      "range_min": 8,
+      "range_max": 9,
+      "name": "Radioactive"
+    },
+    {
+      "range_min": 10,
+      "range_max": 10,
+      "name": "Exotic Material"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "table_ship_hulls_dark_eldar",
+  "name": "Dark Eldar Ship Hulls",
+  "_source": "src_rt12_soul_reaver_p137",
+  "audience": "gm",
+  "die": "d100_lowest_of_two",
+  "_doc": "Per The Soul Reaver, only two Dark Eldar hulls are routinely encountered: the Corsair escort and the Torture cruiser.",
+  "rows": [
+    {"range_min": 1,  "range_max": 70, "name": "Corsair-class Escort",   "class": "Raider",  "_book": "RT12_TSR", "_page": 137},
+    {"range_min": 71, "range_max": 100,"name": "Torture-class Cruiser",  "class": "Cruiser", "_book": "RT12_TSR", "_page": 137}
+  ]
+}

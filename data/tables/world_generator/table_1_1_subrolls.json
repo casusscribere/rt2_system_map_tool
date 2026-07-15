@@ -1,0 +1,93 @@
+{
+  "id": "table_1_1_subrolls",
+  "name": "Table 1-1 Sub-rolls (per-feature effect cascades)",
+  "_source": "src_rt14_stars_p9_to_p12",
+  "audience": "gm",
+  "_doc": "Each feature on Table 1-1 has a sub-effect cascade. This file collects those cascades. Some features pick ONE effect (Gravity Tides, Haven, Ruined Empire), some pick ONE-OR-MORE (Bountiful, Ill-Omened, Warp Stasis -- roll each option independently with a uniform random selection that may pick multiple). Used by generate_system_features() to populate the feature_flags struct.",
+  "features": {
+    "Bountiful": {
+      "_source": "src_rt14_stars_p9",
+      "pick_mode": "one_or_more",
+      "options": [
+        {"id": "extra_asteroids", "description": "1 extra Asteroid Belt OR Cluster (5+ on 1d10 = Belt, else Cluster)", "flag_op": "increment", "flag_target": "extra_asteroid_field"},
+        {"id": "bountiful_asteroids", "description": "On 6+ on 1d10 per asteroid belt/cluster, roll 1d5 extra times on Table 1-20 Mineral Resources for that body", "flag_op": "set_true", "flag_target": "bountiful_asteroids"},
+        {"id": "extra_mineral_resources", "description": "1 extra roll on Table 1-20 per Planet generated", "flag_op": "increment", "flag_target": "extra_mineral_resources_per_planet"},
+        {"id": "chance_extra_exotic", "description": "Chance of extra Exotic Material per Planet", "flag_op": "set_true", "flag_target": "chance_for_extra_exotic_materials_per_planet"}
+      ]
+    },
+    "Gravity Tides": {
+      "_source": "src_rt14_stars_p9",
+      "pick_mode": "one",
+      "options": [
+        {"id": "extra_gravity_riptides", "description": "Add 1d5 Gravity Riptides to the System (placeable in any Solar Zone)", "flag_op": "add_d5", "flag_target": "extra_gravity_riptides"},
+        {"id": "gravity_wells_around_planets", "description": "Safely entering orbit requires a Difficult (-10) Pilot (Space Craft) Test; small craft Very Hard (-30) Pilot (Flyers)", "flag_op": "set_true", "flag_target": "gravity_tides_gravity_wells_around_planets"},
+        {"id": "travel_time_halves", "description": "Travel between Planets within this System takes half the usual time", "flag_op": "set_true", "flag_target": "gravity_tides_travel_time_halves"}
+      ]
+    },
+    "Haven": {
+      "_source": "src_rt14_stars_p10",
+      "pick_mode": "one",
+      "options": [
+        {"id": "extra_planet_each_zone", "description": "1 additional Planet in each Solar Zone", "flag_op": "increment", "flag_target": "extra_planets_in_each_solar_zone"},
+        {"id": "thicker_atmospheres", "description": "Primary Biosphere planets have thicker atmospheres (roll Table 1-9 with +2)", "flag_op": "set_true", "flag_target": "haven_thicker_atmospheres_in_primary_biosphere"},
+        {"id": "better_habitability", "description": "Primary Biosphere planets have better habitability (roll Table 1-12 with +2)", "flag_op": "set_true", "flag_target": "haven_better_habitability"}
+      ]
+    },
+    "Ill-Omened": {
+      "_source": "src_rt14_stars_p10",
+      "pick_mode": "one_or_more",
+      "options": [
+        {"id": "fickle_fate_points", "description": "When spending a Fate Point within this System, roll 1d10. On a 9, it has no effect.", "flag_op": "set_true", "flag_target": "ill_omened_fickle_fate_points"},
+        {"id": "willpower_penalty", "description": "All Willpower Tests made within this System are at -10", "flag_op": "set_true", "flag_target": "ill_omened_willpower_penalty"},
+        {"id": "doubled_insanity", "description": "Insanity Points gained within this System are doubled", "flag_op": "set_true", "flag_target": "ill_omened_doubled_insanity"},
+        {"id": "fear_from_psychic_exploration", "description": "Divination Discipline psychic-exploration use requires a Difficult (-10) Fear Test before the Focus Power Test", "flag_op": "set_true", "flag_target": "ill_omened_fear_from_psychic_exploration"}
+      ]
+    },
+    "Pirate Den": {
+      "_source": "src_rt14_stars_p10",
+      "pick_mode": "deterministic",
+      "options": [
+        {"id": "spawn_pirate_fleet", "description": "1d5+4 Wolfpack Raiders led by a stronger flagship (often a Frigate). Never <5, rarely >8. Alternative fleets: Ork/Eldar/Rak'Gol/Chaos vessels of higher quality.", "flag_op": "set_true", "flag_target": "pirate_den_present"}
+      ]
+    },
+    "Ruined Empire": {
+      "_source": "src_rt14_stars_p10",
+      "pick_mode": "one",
+      "options": [
+        {"id": "extra_xenos_ruins", "description": "Add 1d5-1 (min 1) extra Xenos Ruins on different planets; abundance bonus to existing Xenos Ruins resources", "flag_op": "set_xenos_ruins_bundle", "flag_target": "ruined_empire_xenos"},
+        {"id": "extra_archeotech_caches", "description": "Add 1d5-1 (min 1) extra Archeotech Caches on different planets; abundance bonus to existing Archeotech resources", "flag_op": "set_archeotech_bundle", "flag_target": "ruined_empire_archeotech"}
+      ]
+    },
+    "Starfarers": {
+      "_source": "src_rt14_stars_p11",
+      "pick_mode": "deterministic",
+      "options": [
+        {"id": "starfarers_min_planets", "description": "Minimum 4 Planets in this System after all modifiers", "flag_op": "set_min_4_planets", "flag_target": "minimum_num_planets_after_modifiers"},
+        {"id": "starfarers_inhabited_features", "description": "1d5+3 System Features are inhabited by the starfaring civilisation", "flag_op": "add_d5_plus_3", "flag_target": "starfarers_num_system_features_inhabited"}
+      ]
+    },
+    "Stellar Anomaly": {
+      "_source": "src_rt14_stars_p11",
+      "pick_mode": "deterministic",
+      "options": [
+        {"id": "stellar_anomaly_planet_loss", "description": "-2 to the final Planet count (this System has unusually few Planets due to the anomaly)", "flag_op": "decrement_by_2", "flag_target": "num_planets_modifier"}
+      ]
+    },
+    "Warp Stasis": {
+      "_source": "src_rt14_stars_p12",
+      "pick_mode": "one_or_more",
+      "options": [
+        {"id": "warp_stasis_focus_power_penalties", "description": "Focus Power and Psyniscience Tests within the System are at -10", "flag_op": "set_true", "flag_target": "warp_stasis_focus_power_penalties"},
+        {"id": "warp_stasis_no_push", "description": "Psychic Techniques cannot be used at the Push level within the System", "flag_op": "set_true", "flag_target": "warp_stasis_no_push"},
+        {"id": "warp_stasis_reduced_psychic_phenomena", "description": "When rolling on Psychic Phenomena, roll twice and use the lower result", "flag_op": "set_true", "flag_target": "warp_stasis_reduced_psychic_phenomena"}
+      ]
+    },
+    "Warp Turbulence": {
+      "_source": "src_rt14_stars_p12",
+      "pick_mode": "deterministic",
+      "options": [
+        {"id": "warp_turbulence_planet_in_storm", "description": "1 Planet in the System is engulfed in a permanent Warp storm", "flag_op": "set_to_1", "flag_target": "num_planets_in_warp_storms"}
+      ]
+    }
+  }
+}

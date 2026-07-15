@@ -1,0 +1,12 @@
+{
+  "id": "table_ship_hulls_rakgol",
+  "name": "Rak'Gol Ship Hulls",
+  "_source": "src_rt09_battlefleet_koronus_p98_to_p100",
+  "audience": "gm",
+  "die": "d100_lowest_of_two",
+  "rows": [
+    {"range_min": 1,  "range_max": 35, "name": "Butcher",  "class": "Transport",    "_book": "RT09_BFK", "_page": 98},
+    {"range_min": 36, "range_max": 80, "name": "Mauler",   "class": "Frigate",      "_book": "RT09_BFK", "_page": 99},
+    {"range_min": 81, "range_max": 100,"name": "Mangler",  "class": "LightCruiser", "_book": "RT09_BFK", "_page": 100}
+  ]
+}

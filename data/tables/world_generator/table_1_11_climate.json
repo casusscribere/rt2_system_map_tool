@@ -1,0 +1,40 @@
+{
+  "id": "table_1_11_climate",
+  "name": "Table 1-11: Climate",
+  "_source": "src_rt14_stars_p22",
+  "audience": "gm",
+  "die": "d10",
+  "_doc": "Climate is influenced by Solar Zone. Planets with no atmosphere have predetermined climate: Inner Cauldron = Burning, Outer Reaches = Ice, Primary Biosphere = either. Planets with atmosphere roll here, with -6 if Inner Cauldron or +6 if Outer Reaches.",
+  "rows": [
+    {
+      "range_min": -99,
+      "range_max": 0,
+      "name": "Burning World",
+      "description": "Fierce heat blankets the Planet. Extreme heat tests Very Hard (-30)."
+    },
+    {
+      "range_min": 1,
+      "range_max": 3,
+      "name": "Hot World",
+      "description": "Most of the Planet is dangerously hot. Extreme heat tests range Challenging (+0) to Hard (-20). Sheltered microclimates may have less severe heat."
+    },
+    {
+      "range_min": 4,
+      "range_max": 7,
+      "name": "Temperate World",
+      "description": "Exclusively in or near a system's Primary Biosphere. Can contain extreme heat/cold regions. Temperature resistance tests rarely exceed Difficult (-10)."
+    },
+    {
+      "range_min": 8,
+      "range_max": 10,
+      "name": "Cold World",
+      "description": "Most of the Planet is dangerously cold. Extreme cold tests Challenging (+0) to Hard (-20). Sheltered microclimates may have less severe cold."
+    },
+    {
+      "range_min": 11,
+      "range_max": 99,
+      "name": "Ice World",
+      "description": "Frozen pole to pole. Extreme cold tests Very Hard (-30)."
+    }
+  ]
+}

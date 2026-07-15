@@ -1,0 +1,19 @@
+{
+  "id": "table_ship_race_selector",
+  "name": "Starship Race Selector (1d14)",
+  "_source": "src_rt09_battlefleet_koronus_general + src_rt12_soul_reaver",
+  "audience": "gm",
+  "die": "d14",
+  "_doc": "Roll 1d14 to pick a ship's species when not specified. Eldar and Dark Eldar are intentionally rare; Humans, Orks, and Chaos Reavers are the bulk; Stryxis, Kroot, Rak'Gol, and Other xenos are encountered occasionally.",
+  "rows": [
+    {"range_min": 1,  "range_max": 1,  "species": "Eldar"},
+    {"range_min": 2,  "range_max": 4,  "species": "Human"},
+    {"range_min": 5,  "range_max": 5,  "species": "Kroot"},
+    {"range_min": 6,  "range_max": 7,  "species": "Ork"},
+    {"range_min": 8,  "range_max": 8,  "species": "RakGol"},
+    {"range_min": 9,  "range_max": 10, "species": "ChaosReaver"},
+    {"range_min": 11, "range_max": 11, "species": "Stryxis"},
+    {"range_min": 12, "range_max": 12, "species": "DarkEldar"},
+    {"range_min": 13, "range_max": 14, "species": "Other"}
+  ]
+}

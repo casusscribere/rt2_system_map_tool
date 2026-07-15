@@ -1,0 +1,17 @@
+{
+  "id": "table_2_27_armour",
+  "name": "Table 2-27: Armour",
+  "_source": "src_rt14_stars_p84",
+  "audience": "gm",
+  "die": "d10",
+  "rows": [
+    {"range_min": 1,  "range_max": 2,  "name": "Reinforced Hauberk",   "profile": "Chest 4; 15kg"},
+    {"range_min": 3,  "range_max": 3,  "name": "Reinforced Helm",      "profile": "Head 3; 9kg"},
+    {"range_min": 4,  "range_max": 5,  "name": "Meshweave Cloak",      "profile": "Arms, Body, Legs 3; 6kg"},
+    {"range_min": 6,  "range_max": 6,  "name": "Carapace Chestplate",  "profile": "Chest 6; 7kg"},
+    {"range_min": 7,  "range_max": 7,  "name": "Carapace Helm",        "profile": "Head 4; 2kg"},
+    {"range_min": 8,  "range_max": 8,  "name": "Assassin's Bodyglove", "profile": "All 3; 5kg"},
+    {"range_min": 9,  "range_max": 9,  "name": "Light Power Armour",   "profile": "See RT Core pp.138-139", "_cross_ref": {"book": "RT Core", "page": 138}},
+    {"range_min": 10, "range_max": 10, "name": "Power Armour",         "profile": "See RT Core pp.138-139", "_cross_ref": {"book": "RT Core", "page": 138}}
+  ]
+}

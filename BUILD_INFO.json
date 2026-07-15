@@ -1,0 +1,14 @@
+{
+  "app": "rt2_system_map_tool",
+  "built_at": "2026-07-15T16:19:04",
+  "source": "codified-systems/rogue_trader/apps/rt2_system_map_tool",
+  "inputs": [
+    "rules/star_system_generation.py",
+    "rules/starship_generation.py",
+    "rules/treasure_generation.py",
+    "data/tables/world_generator",
+    "data/tables/treasure",
+    "data/tables/starships",
+    "data/systems/library.json"
+  ]
+}

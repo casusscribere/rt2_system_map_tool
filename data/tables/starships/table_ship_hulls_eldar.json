@@ -1,0 +1,15 @@
+{
+  "id": "table_ship_hulls_eldar",
+  "name": "Eldar (Craftworld) Ship Hulls",
+  "_source": "src_rt09_battlefleet_koronus_p87_to_p90",
+  "audience": "gm",
+  "die": "d100_lowest_of_two",
+  "rows": [
+    {"range_min": 1,  "range_max": 25, "name": "Hellebore",       "class": "Frigate",      "_book": "RT09_BFK", "_page": 87},
+    {"range_min": 26, "range_max": 45, "name": "Hemlock",         "class": "Frigate",      "_book": "RT09_BFK", "_page": 87},
+    {"range_min": 46, "range_max": 70, "name": "Nightshade",      "class": "Frigate",      "_book": "RT09_BFK", "_page": 88},
+    {"range_min": 71, "range_max": 85, "name": "Aurora",          "class": "LightCruiser", "_book": "RT09_BFK", "_page": 89},
+    {"range_min": 86, "range_max": 93, "name": "Eclipse Cruiser", "class": "Cruiser",      "_book": "RT09_BFK", "_page": 89},
+    {"range_min": 94, "range_max": 100,"name": "Shadow Cruiser",  "class": "Cruiser",      "_book": "RT09_BFK", "_page": 90}
+  ]
+}

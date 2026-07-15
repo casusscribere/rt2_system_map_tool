@@ -1,0 +1,30 @@
+{
+  "id": "table_1_17_additional_resources",
+  "name": "Table 1-17: Additional Resources",
+  "_source": "src_rt14_stars_p27",
+  "audience": "gm",
+  "die": "d10",
+  "rows": [
+    {
+      "range_min": 1,
+      "range_max": 2,
+      "name": "Archeotech Cache"
+    },
+    {
+      "range_min": 3,
+      "range_max": 6,
+      "name": "Minerals"
+    },
+    {
+      "range_min": 7,
+      "range_max": 8,
+      "name": "Organic Compound",
+      "note": "Re-roll if the Planet cannot support life"
+    },
+    {
+      "range_min": 9,
+      "range_max": 10,
+      "name": "Xenos Ruins"
+    }
+  ]
+}
