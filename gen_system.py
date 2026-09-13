@@ -104,9 +104,22 @@ def main():
     lib = load_library()
     if not args.rebuild:
         for i in range(args.count):
-            seed = args.seed if (args.seed is not None and args.count == 1) \
-                else random.randrange(1, 10 ** 6)
-            s = generate_star_system(seed=seed, name=args.name if args.count == 1 else None)
+            # Derive per-item seeds so a seeded BATCH is reproducible. Until
+            # 2026-07-31 both --seed and --name were discarded whenever
+            # --count != 1, so `--seed 42 --count 3` drew three random seeds
+            # and told the user nothing — the generator is fully deterministic,
+            # so the CLI was throwing that guarantee away.
+            if args.seed is not None:
+                seed = args.seed + i
+            else:
+                seed = random.randrange(1, 10 ** 6)
+            if args.name is None:
+                name = None
+            elif args.count == 1:
+                name = args.name
+            else:
+                name = f"{args.name} {i + 1}"      # distinguishable within the batch
+            s = generate_star_system(seed=seed, name=name)
             # uniquify id
             base = s["id"]; n = 2
             while any(x["id"] == s["id"] for x in lib["systems"]):

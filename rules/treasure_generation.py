@@ -28,9 +28,17 @@ Usage:
     # -> {"origin": "Ancient Miracle", "type": "Power Axe", ...}
 
 Source: RT14 Stars of Inequity (FFG, 2012), Chapter II pp.83-92.
+
+ORPHAN — see the _ORPHAN note below the docstring.
 """
 
 from __future__ import annotations
+
+# Orphan (INGESTION_PLAN §7, tagged 2026-09-10): authored before its source book was manifested
+# under the 8-phase protocol. Not loaded by any default consumer; reconcile against the book's
+# Wave (RT11 → Wave 4, RT04/RT09 → Wave 3, RT14 Ch.II → Wave 4) before use in play.
+_ORPHAN = True
+
 import json
 import os
 import random
