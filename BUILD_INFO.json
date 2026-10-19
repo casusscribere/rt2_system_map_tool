@@ -1,6 +1,6 @@
 {
   "app": "rt2_system_map_tool",
-  "built_at": "2026-09-13T12:44:13",
+  "built_at": "2026-10-19T00:00:50",
   "source": "codified-systems/rogue_trader/apps/rt2_system_map_tool",
   "inputs": [
     "rules/star_system_generation.py",
@@ -9,6 +9,6 @@
     "data/tables/world_generator",
     "data/tables/treasure",
     "data/tables/starships",
-    "data/systems/library.json"
+    "campaign/setting/patavian_reach/systems/library.json"
   ]
 }

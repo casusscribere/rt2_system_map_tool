@@ -89,8 +89,9 @@ this folder, so no path back into `codified-systems/` is required.
 
 This is a **generated bundle** — do not hand-edit (see `_GENERATED_DO_NOT_EDIT.txt`). The
 hand-edited source lives in `codified-systems/rogue_trader/apps/rt2_system_map_tool/` (the UI +
-`gen_system.py`); the RT14 engine (`rules/`) and tables (`data/`) bundled here are copies of the
-corpus — the single source of truth.
+`gen_system.py`); the RT14 engine (`rules/`) and tables (`data/tables/`) bundled here are copies of
+the corpus, and `data/systems/library.json` is a copy of the campaign's system library
+(`campaign/setting/patavian_reach/systems/library.json`) — the single sources of truth.
 
 Rebuild this bundle after editing the corpus engine, the tables, or the app source:
 
@@ -101,7 +102,8 @@ python codified-systems/rogue_trader/build_apps.py rt2_system_map_tool
 It re-copies the declared engine + tables, runs `gen_system.py --rebuild`, and writes
 `BUILD_INFO.json`. Because this is a **self-contained generator** bundle, you can still generate
 new systems locally with `python gen_system.py --seed N` and they persist in this bundle's
-`data/systems/library.json` (promote them into the corpus when you want them upstream). See
+`data/systems/library.json` (copy them into `campaign/setting/patavian_reach/systems/library.json`
+when you want them upstream). See
 `docs/TOOLS_PIPELINE_PLAN.md` for the architecture.
 
 ## Integration
